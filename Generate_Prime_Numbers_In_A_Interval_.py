@@ -1,6 +1,6 @@
-a=int(input())
-b=int(input())
-for num in range(a,b+1):
+m=int(input())
+n=int(input())
+for num in range(m,n+1):
     if num>1:
         for i in range(2,num):
             if num%i==0:
