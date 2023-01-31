@@ -1,8 +1,8 @@
-rows=int(input())
-for i in range(rows,0,-1):
-    for j in range(rows,0,-1):
-        if i==j:
-            print('0',end='')
-        else:
-            print('x',end='')
-    print()
+n=int(input())
+a=''
+for i in range(n):
+    a=''
+    for j in range(n):
+        if(i==j)or (i+j)==n-1:a+='x'
+        else:a+='0'
+    print(a)
